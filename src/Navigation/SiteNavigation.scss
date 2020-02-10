@@ -1,0 +1,21 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 50px;
+}
+
+.btn{
+  padding: 10px 20px;
+  width: 200px;
+  text-align: center;
+  color: #FFF;
+  outline: none;
+  background: #007bff;
+  border: 0;
+  border-radius: 5px;
+
+  &.logged{
+    background: #bcbcbc;
+  }
+}
