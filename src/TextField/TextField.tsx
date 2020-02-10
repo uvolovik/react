@@ -1,7 +1,7 @@
 import React from "react";
 
 type TextFieldProps = {
-  type?: string;
+  type: string;
   disabled?: boolean;
   id?: string;
   name?: string;
@@ -28,7 +28,7 @@ const TextField = ({
   return (
     <div>
       <input
-        className={`input${ hasError ? ' error' : ''}`}
+        className={`input${hasError ? " error" : ""}`}
         type={type}
         id={id}
         onClick={onClick}
